@@ -1,4 +1,4 @@
-FUNCTION Z_BC400_08_CONNECTION_GET.
+FUNCTION ZBC400_GIT_CORRESPONDINGFILEDSOF.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING
