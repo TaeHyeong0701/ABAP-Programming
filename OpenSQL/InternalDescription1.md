@@ -20,8 +20,6 @@
 - 인터널테이블은 Local 내에서만 구동됨.
 - 헤더라인이 있는 것과 없는 것의 차이점을 명확히 인지하셔야 사용이 용이함.
 - Data Type 유의! 특히 ABAP Dictionary 참조할 때, 일부 필드 순서 때문에 타입이 매칭안되는 경우를 많이 경험함.  ---> ___Be Careful Data Type___
- 
- ![internal error](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/Error.png)
 - SAP사에서 비추천하는 방식임.
    - 코드를 일부 줄일 수 있으나, 추후 코드의 가독성(유지보수 측면)을 떨어뜨릴 위험이 높다고 생각함
 ## [Work Area Type Define]
