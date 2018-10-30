@@ -1,32 +1,32 @@
  # Message Category
  
- ½Ã½ºÅÛ ¿¡·¯ ¹ß»ý½Ã, »ç¿ëÀÚ¿¡°Ô ¾Ë·ÁÁÖ´Â ¸Þ½ÃÁö Å¸ÀÔ¿¡ ´ëÇØ °øºÎÇÏ¿´½À´Ï´Ù.
+ ì‹œìŠ¤í…œ ì—ëŸ¬ ë°œìƒì‹œ, ì‚¬ìš©ìžì—ê²Œ ì•Œë ¤ì£¼ëŠ” ë©”ì‹œì§€ íƒ€ìž…ì— ëŒ€í•´ ê³µë¶€í•˜ì˜€ìŠµë‹ˆë‹¤.
  
  
 ## Message Category
 
  
-| ÅØ½ºÆ® |ÀÇ¹Ì|´ÙÀ½´Ü°è|
+| í…ìŠ¤íŠ¸ |ì˜ë¯¸|ë‹¤ìŒë‹¨ê³„|
 
 |:---:|:---:|:---:|
 
-| S  |¼º°øÇß´Ù.|Success|
+| S  |ì„±ê³µí–ˆë‹¤.|Success|
 
-|I|ÆË¾÷Ã¢À¸·Î ¾Ë·ÁÁØ´Ù|Success|
+|I|íŒì—…ì°½ìœ¼ë¡œ ì•Œë ¤ì¤€ë‹¤|Success|
 
-|W|Status¹Ù¿¡ ³ë¶õ´À³¦Ç¥·Î ³ª¿À´Â ¸Þ½ÃÁö Ãâ·Â|Success|
+|W|Statusë°”ì— ë…¸ëž€ëŠë‚Œí‘œë¡œ ë‚˜ì˜¤ëŠ” ë©”ì‹œì§€ ì¶œë ¥|Success|
 
-|E|Status¹Ù¿¡ »¡°­´À³¦Ç¥·Î ³ª¿À´Â ¸Þ½ÃÁö|Fail|
+|E|Statusë°”ì— ë¹¨ê°•ëŠë‚Œí‘œë¡œ ë‚˜ì˜¤ëŠ” ë©”ì‹œì§€|Fail|
 
-|X|Dump error + °­Á¦Á¾·á|Fail|
+|X|Dump error + ê°•ì œì¢…ë£Œ|Fail|
 
-|A|ÆË¾÷Ã¢ + °­Á¦Á¾·á|Fail|
+|A|íŒì—…ì°½ + ê°•ì œì¢…ë£Œ|Fail|
 
-|BC410 ÆÐÅ°Áö|¿¡·¯ ¸Þ½ÃÁö ¸ðÀ½ ÆÐÅ°Áö(Predefined)|-|
+|BC410 íŒ¨í‚¤ì§€|ì—ëŸ¬ ë©”ì‹œì§€ ëª¨ìŒ íŒ¨í‚¤ì§€(Predefined)|-|
 
 
 
-## ¿¹½ÃÄÚµå
+## ì˜ˆì‹œì½”ë“œ
 
 ```
 
@@ -39,9 +39,9 @@ ENDIF.
 
 
 
-## Ãâ·ÂÈ­¸é
-
+## ì¶œë ¥í™”ë©´
 1. 'S'
+<<<<<<< HEAD
  
    ![sÄÚµå ¿¡·¯](./image/error_s.png)
 
@@ -57,4 +57,18 @@ ENDIF.
 
 6. 'A'
  ![sÄÚµå ¿¡·¯](./image/error_s.png)
+=======
+   ![sì½”ë“œ ì—ëŸ¬](./image/error_s.png)
+2. 'I'
+    ![sì½”ë“œ ì—ëŸ¬](./image/error_s.png)
+3. 'W'
+ ![sì½”ë“œ ì—ëŸ¬](./image/error_s.png)
+4. 'E'
+ ![sì½”ë“œ ì—ëŸ¬](./image/error_s.png)
+5. 'X'
+ ![sì½”ë“œ ì—ëŸ¬](./image/error_s.png)
+
+6. 'A'
+ ![sì½”ë“œ ì—ëŸ¬](./image/error_s.png)
+>>>>>>> 8a5ddd51902ed4aa27089a1b0128d10a7bf37ca9
 
