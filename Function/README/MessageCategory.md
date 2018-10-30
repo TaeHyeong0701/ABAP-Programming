@@ -24,7 +24,7 @@ ENDIF.
 
 ## 출력화면
 1. 'S'
-   ![s코드 에러](./image/errors.png)
+![errors](https://user-images.githubusercontent.com/44318904/47720913-52f62880-dc92-11e8-87c9-83864c72b35d.png)
 2. 'I'
     ![s코드 에러](./image/errori.png)
 3. 'W'
