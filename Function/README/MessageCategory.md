@@ -26,14 +26,14 @@ ENDIF.
 1. 'S'
 ![errors](https://user-images.githubusercontent.com/44318904/47720913-52f62880-dc92-11e8-87c9-83864c72b35d.png)
 2. 'I'
-    ![s코드 에러](./image/errori.png)
+![errori](https://user-images.githubusercontent.com/44318904/47720985-7d47e600-dc92-11e8-8e06-7b18e5aafd0a.png)
 3. 'W'
- ![s코드 에러](./image/errorw.png)
+![errori](https://user-images.githubusercontent.com/44318904/47720985-7d47e600-dc92-11e8-8e06-7b18e5aafd0a.png)
 4. 'E'
- ![s코드 에러](./image/errore.png)
+![errore](https://user-images.githubusercontent.com/44318904/47721029-9486d380-dc92-11e8-934e-e1480d05fc42.png)
 5. 'X'
- ![s코드 에러](./image/errorx.png)
+![errorx](https://user-images.githubusercontent.com/44318904/47721070-a8323a00-dc92-11e8-8309-1792bd6d6ad4.png)
 6. 'A'
- ![s코드 에러](./image/errora.png)
+![errors](https://user-images.githubusercontent.com/44318904/47721050-9d77a500-dc92-11e8-8dca-efecbc8ac368.png)
 
 
