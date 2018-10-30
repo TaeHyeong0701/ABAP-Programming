@@ -1,76 +1,48 @@
  # Create a Table and Create entries(in ABAP DICTIONARY)
-
- 
- ABAP DICTIONARY¿¡ Å×ÀÌºí(Customer Table)À» »ý¼ºÇÏ°í, ÇØ´ç Å×ÀÌºí¿¡ ¿£Æ®¸®¸¦ Ãß°¡ÇÏ´Â ¹æ¹ýÀ» °øºÎÇÏ¿´½À´Ï´Ù.
+ ABAP DICTIONARYì— í…Œì´ë¸”(Customer Table)ì„ ìƒì„±í•˜ê³ , í•´ë‹¹ í…Œì´ë¸”ì— ì—”íŠ¸ë¦¬ë¥¼ ì¶”ê°€í•˜ëŠ” ë°©ë²•ì„ ê³µë¶€í•˜ì˜€ìŠµë‹ˆë‹¤.
  
 
 ## Create a Table
- 
 - 1step : SE11
- 
-- 2step : Å×ÀÌºí ¸í ÀÔ·Â
- 
-- 3step : Description ÀÔ·Â
- 
-- 4step : Delivery Class ÀÔ·Â ¹× Data Browser.Table View Maint ¼³Á¤
+- 2step : í…Œì´ë¸” ëª… ìž…ë ¥
+- 3step : Description ìž…ë ¥
+- 4step : Delivery Class ìž…ë ¥ ë° Data Browser.Table View Maint ì„¤ì •
  
  
 
 | Delivery Class Type |Description|
-
 |:---:|:---:|
-
 | Delivery Class A  |For Master data and Transaction table|
-
 |Delivery Class C|For Customer table|
-
-|Delivery Class L|For Global Temporary table *°¡»óÅ×ÀÌºíÀ» ¸¸µé ¶§ »ç¿ëÇÑ´Ù.|
-
-|Delivery Class G|For Customer table *º¯°æÀÌ³ª »èÁ¦¸¦ ºÒÇãÇÔ.|
-
-|Delivery Class E|For System table *»ç¿ëÀÚ°¡ ¿£Æ®¸®¸¦ Ãß°¡ÇÒ ¼ö ÀÖÀ½.|
-
-|Delivery Class S|For System table *predefined data = º¯°æ ºÒÇã.|
-
+|Delivery Class L|For Global Temporary table *ê°€ìƒí…Œì´ë¸”ì„ ë§Œë“¤ ë•Œ ì‚¬ìš©í•œë‹¤.|
+|Delivery Class G|For Customer table *ë³€ê²½ì´ë‚˜ ì‚­ì œë¥¼ ë¶ˆí—ˆí•¨.|
+|Delivery Class E|For System table *ì‚¬ìš©ìžê°€ ì—”íŠ¸ë¦¬ë¥¼ ì¶”ê°€í•  ìˆ˜ ìžˆìŒ.|
+|Delivery Class S|For System table *predefined data = ë³€ê²½ ë¶ˆí—ˆ.|
 |Delivery Class W|For Administration data |
 
-- 5step : ÇÊµå°ª ÀÔ·Â (Domain, Element, key setting)
- 
-- 6steo : Technical Setting ¼³Á¤(Data Class, size category, )
-
+- 5step : í•„ë“œê°’ ìž…ë ¥ (Domain, Element, key setting)
+- 6steo : Technical Setting ì„¤ì •(Data Class, size category, )
 
 
 | Data Class |Description|
-
 |:---:|:---:|
-
-| APPL0|Master data (* ÀÚÁÖ º¯ÇÏÁö ¾Ê´Â µ¥ÀÌÅÍ °ª.)|
-|APPL1|Transaction data (*ÀÚÁÖ º¯ÇÏ´Â µ¥ÀÌÅÍ °ª.)|
-
-|APPL2|Organizational (*½Ã½ºÅÛ ¼³Ä¡½Ã, »ç¿ëÀÚ ÁöÁ¤°ªÀ¸·Î ÀÔ·ÂµÈ µ¥ÀÌÅÍ·Î, Àß ¾Èº¯ÇÔ.)|
+| APPL0|Master data (* ìžì£¼ ë³€í•˜ì§€ ì•ŠëŠ” ë°ì´í„° ê°’.)|
+|APPL1|Transaction data (*ìžì£¼ ë³€í•˜ëŠ” ë°ì´í„° ê°’.)|
+|APPL2|Organizational (*ì‹œìŠ¤í…œ ì„¤ì¹˜ì‹œ, ì‚¬ìš©ìž ì§€ì •ê°’ìœ¼ë¡œ ìž…ë ¥ëœ ë°ì´í„°ë¡œ, ìž˜ ì•ˆë³€í•¨.)|
  
 
 
 ## Create a Entries
-
 - 1step : Menubar -> Utilities -> Table Contents -> Create Entries
-
-- 2step : Entry ÇÊµå°ª ÀÔ·Â
-
+- 2step : Entry í•„ë“œê°’ ìž…ë ¥
 - 3step : Save
-
 - How to DELETE 
   
 1. Utilities -> Table Contents -> Display -> Execute
-  
 2. Menu bar -> Table Entries -> Delete
  
-
-### À¯ÀÇ»çÇ×
-
-a. Key°ªÀ¸·Î ÁöÁ¤µÈ °ªÀ» Áßº¹ÀÔ·ÂÇÏ¸é µ¥ÀÌÅÍ°¡ ÀúÀå ¾ÈµÊÀ» È®ÀÎÇÒ ¼ö ÀÖ´Ù.
-
-b. µ¥ÀÌÅÍÅ¸ÀÔÀÌ È£È¯µÇÁö ¾ÊÀ» °æ¿ì ´ç¿¬È÷ ÀÔ·Â ¾ÈµÊ.
-
+### ìœ ì˜ì‚¬í•­
+a. Keyê°’ìœ¼ë¡œ ì§€ì •ëœ ê°’ì„ ì¤‘ë³µìž…ë ¥í•˜ë©´ ë°ì´í„°ê°€ ì €ìž¥ ì•ˆë¨ì„ í™•ì¸í•  ìˆ˜ ìžˆë‹¤.
+b. ë°ì´í„°íƒ€ìž…ì´ í˜¸í™˜ë˜ì§€ ì•Šì„ ê²½ìš° ë‹¹ì—°ížˆ ìž…ë ¥ ì•ˆë¨.
 
 >  > REFERENCE MATERIAL : SAP HELP PORTAL.
