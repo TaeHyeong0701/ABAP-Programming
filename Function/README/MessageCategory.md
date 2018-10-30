@@ -24,16 +24,16 @@ ENDIF.
 
 ## 출력화면
 1. 'S'
-   ![s코드 에러](./image/error_s.png)
+   ![s코드 에러](./image/errors.png)
 2. 'I'
-    ![s코드 에러](./image/error_s.png)
+    ![s코드 에러](./image/errors.png)
 3. 'W'
- ![s코드 에러](./image/error_s.png)
+ ![s코드 에러](./image/errors.png)
 4. 'E'
- ![s코드 에러](./image/error_s.png)
+ ![s코드 에러](./image/errors.png)
 5. 'X'
- ![s코드 에러](./image/error_s.png)
+ ![s코드 에러](./image/errors.png)
 6. 'A'
- ![s코드 에러](./image/error_s.png)
+ ![s코드 에러](./image/errors.png)
 
 
