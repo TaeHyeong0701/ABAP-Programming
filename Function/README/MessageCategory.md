@@ -43,18 +43,18 @@ ENDIF.
 
 1. 'S'
  
-   ![s코드 에러](../../image/error_s.png "s메시지")
+   ![s코드 에러](./image/error_s.png)
 
 2. 'I'
 
-    ![s코드 에러](../../image/error_s.png "i메시지")
+    ![s코드 에러](./image/error_s.png)
 3. 'W'
- ![s코드 에러](../../image/error_s.png "w메시지")
+ ![s코드 에러](./image/error_s.png)
 4. 'E'
- ![s코드 에러](../../image/error_s.png "e메시지")
+ ![s코드 에러](./image/error_s.png)
 5. 'X'
- ![s코드 에러](../../image/error_s.png "x메시지")
+ ![s코드 에러](./image/error_s.png)
 
 6. 'A'
- ![s코드 에러](../../image/error_s.png "a메시지")
+ ![s코드 에러](./image/error_s.png)
 
