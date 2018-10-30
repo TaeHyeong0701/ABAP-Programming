@@ -43,19 +43,18 @@ ENDIF.
 
 1. 'S'
  
-   [!s코드 에러](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/error_S.png)
+   ![s코드 에러](../../image/error_s.png "s메시지")
 
 2. 'I'
 
-   [!I코드 에러](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/error_I.png)
+    ![s코드 에러](../../image/error_s.png "i메시지")
 3. 'W'
-[!W코드 에러](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/error_W.png)
+ ![s코드 에러](../../image/error_s.png "w메시지")
 4. 'E'
-[!E코드 에러](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/error_E.png)
-
+ ![s코드 에러](../../image/error_s.png "e메시지")
 5. 'X'
-[!X코드 에러](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/error_X.png)
+ ![s코드 에러](../../image/error_s.png "x메시지")
 
 6. 'A'
-[!A코드 에러](https://github.com/TaeHyeong0701/ABAP-Programming/tree/master/image/error_A.png)
+ ![s코드 에러](../../image/error_s.png "a메시지")
 
