@@ -1,11 +1,11 @@
- # Create a SearchHelp
+# Create a SearchHelp
  
  변수 없이도, 조건을 찾아주는 프로그램
     - Search Help    
  
  
- ## VS SELECT-OPTIONS
- | Search Help |SELECT-OPTIONS|
+## VS SELECT-OPTIONS
+| Search Help |SELECT-OPTIONS|
 |:---:|:---:|
 | 입력변수가 없어도 조건값 조회 가능 |변수 범위를 사전에 정의, 이후 입력변수로 조건값 조회|
 
