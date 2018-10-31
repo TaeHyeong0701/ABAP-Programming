@@ -25,6 +25,7 @@
    
     Ex1.) 미설정시, 김*(전체조회)
 ![impx](https://user-images.githubusercontent.com/44318904/47795011-fa439000-dd64-11e8-9336-3e3ceb84e51c.png)
+
     Ex2.) 설정시, 김*(조건에 따른 조회)
 ![impo](https://user-images.githubusercontent.com/44318904/47794996-f283eb80-dd64-11e8-9a14-af38331ac64d.png)
    c.	EXP : 결과로 나타내어지는 필드 
