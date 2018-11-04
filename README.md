@@ -2,9 +2,6 @@
  
  ### Study Subject 
 - ABAP
-- FIORI(SAP UI5)
-- HANA Database
-- Oracle Database
 
 ### Reference Material Helping my Study.
 ##### when i faced trouble or wanted to know exactly, i studied these reference for trouble shooting.
