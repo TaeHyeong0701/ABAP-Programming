@@ -2,6 +2,7 @@
 
 Object-Oriented Programming에 대한 개념.
 **객체 지향 언어 VS 절차 지향 언어**
+
 |Object Oriented Programming  | Procedure Programming |
 |--|--|
 |직관적이 않고 복잡하다  | 직관적이고 간단하다 |
@@ -37,18 +38,3 @@ Object-Oriented Programming에 대한 개념.
 | 부모가 자식의 형태로 변환되는 것 | 자식이 부모의 형태로 변환되는 것 |
    
     
-데이터 객체화 Diagram
-
-```mermaid
-sequenceDiagram
-RealWorld ->> Modeling: Abstration 
-Modeling ->> Object: Specification
-```
-
-상속 Diagram
-
-```jsseq
-graph LR
-A[부모클래스 A] -- 상속 --> B[자식클래스 A + B]
-A -- 상속 --> C[자식클래스 A + C]
-```
