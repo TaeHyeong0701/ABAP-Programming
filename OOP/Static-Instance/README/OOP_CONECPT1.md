@@ -47,7 +47,7 @@ Modeling ->> Object: Specification
 
 상속 Diagram
 
-```mermaid
+```jsseq
 graph LR
 A[부모클래스 A] -- 상속 --> B[자식클래스 A + B]
 A -- 상속 --> C[자식클래스 A + C]
