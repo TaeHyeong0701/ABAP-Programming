@@ -1,11 +1,11 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_TH0701_DATATYPETEST
+*& Report  Z_TH0701_DATATYPE_1_PREDEFINED
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
-REPORT  Z_TH0701_DATATYPETEST.
+REPORT  Z_TH0701_DATATYPE_1_PREDEFINED.
 PARAMETERS : num_1 TYPE n LENGTH 4,
 num_2 TYPE n LENGTH 4,
 packed_1 TYPE p LENGTH 4,

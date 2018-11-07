@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  ZBC400_08_PRIMENUMBER
+*& Report  Z_TH0701_SELECTIONSCREEN_1
 *&
 *&------------------------------------------------------------------------------------------------------*
 *& Scenario 1. 숫자 1과 숫자 2를 받을 수 있는 SELECTION SCREEN을 만들어라.
@@ -7,7 +7,7 @@
 *&             3. 숫자 1과 숫자 2사이에 있는 값(숫자 1과 숫자2도 포함) 출력하라.
 *&------------------------------------------------------------------------------------------------------*
 
-REPORT  zbc400_08_primenumber.
+REPORT  Z_TH0701_SELECTIONSCREEN_1.
 
 SELECTION-SCREEN BEGIN OF LINE. "---> 파라미터를 여러 개 묶어서 한 라인으로 생성. 라인에서 SELECT-OPTIONS, SELECTION-SCREEN SKIP n 구문 사용 불가.
 SELECTION-SCREEN COMMENT 1(6) text-001. "---> (6) Text object의 dlen을 참조하자.

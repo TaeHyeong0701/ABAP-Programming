@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_TH0701_SYTABIX
+*& Report  Z_TH0701_OSQL_4_SY_TABIX
 *&
 *&---------------------------------------------------------------------*
 *&
@@ -9,7 +9,7 @@
 * SY-TABIX의 용도에 대해 확인하며, Cycle 구문을 연습해보자!
 
 
-REPORT  z_th0701_sytabix.
+REPORT  Z_TH0701_OSQL_4_SY_TABIX.
 
 TYPES : BEGIN OF wo_type,
   carrid TYPE s_carr_id,

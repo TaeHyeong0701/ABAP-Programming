@@ -1,4 +1,4 @@
-FUNCTION ZBC400_GIT_USINGCORRESPONDINGFILEDSOF.
+FUNCTION Z_TH0701_OSQL_1_CORRESPONDING.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING

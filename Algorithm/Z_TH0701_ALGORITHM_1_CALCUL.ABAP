@@ -1,12 +1,12 @@
 *&---------------------------------------------------------------------*
-*& Report  ZBC400_GIT_CALCUL
+*& Report  Z_TH0701_ALGORITHM_1_CALCUL
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
 
-REPORT  ZBC400_GIT_CALCUL.
+REPORT  Z_TH0701_ALGORITHM_1_CALCUL.
 TYPES title(30) type c.
 DATA test TYPE title.
 PARAMETERS : num1 type P,

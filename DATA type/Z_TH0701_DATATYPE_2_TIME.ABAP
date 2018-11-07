@@ -1,12 +1,12 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_TH0701_TIMETEST
+*& Report  Z_TH0701_DATATYPE_2_TIME
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
 
-REPORT  Z_TH0701_TIMETEST.
+REPORT  Z_TH0701_DATATYPE_2_TIME.
 DATA: current_date type d,
       current_time TYPE t,
       headquarters_date type d,
