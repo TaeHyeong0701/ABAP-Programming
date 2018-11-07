@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_TH0701_INTERNALTABLE
+*& Report  Z_TH0701_IN_TABLE_1_DECLARTION
 *&
 *&---------------------------------------------------------------------*
 *&
@@ -8,7 +8,7 @@
 * 본인이 가장 좋아하는 인터널 테이블 방식 ---> Method1.
 * 코드를 줄일 수 있는 방식(헤더라인) ---> Method2.
 
-REPORT  Z_TH0701_INTERNALTABLE.
+REPORT  Z_TH0701_IN_TABLE_1_DECLARTION.
 
 TYPES : BEGIN OF header_str,
   CAR TYPE SFLCREW-CARRID,

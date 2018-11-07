@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_TH0701_INSERTDELETE
+*& Report  Z_TH0701_IN_TABLE_3_DML
 *&
 *&---------------------------------------------------------------------*
 *&
@@ -9,7 +9,7 @@
 *!          2. INSERT에서 현재 존재하는 인터널테이블의 INDEX + 1 까지만 인덱스 구문 사용 가능. *
 *!          3. DELETE에서 현재 존재하는 인터널테이블의 INDEX 까지만 인덱스 구문 사용 가능.     *
 *******************************************************************************
-REPORT  Z_TH0701_INSERTDELETE.
+REPORT  Z_TH0701_IN_TABLE_3_DML.
 
 DATA : it_zthsoccer type TABLE OF zthsoccer,
       wo_Zthsoccer like LINE OF it_zthsoccer.

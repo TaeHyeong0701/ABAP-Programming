@@ -6,7 +6,7 @@
 *&           APPEND 명령문과 INSERT 명령문의 차이점.
 *&
 *&---------------------------------------------------------------------*
-REPORT  Z_TH0701_INTERNALTABLE_2.
+REPORT  Z_TH0701_IN_TABLE_2_DECLARTION.
 
 DATA : it_sfl1 TYPE TABLE OF sflcrew WITH HEADER LINE,
       it_sfl2 TYPE TABLE OF sflcrew,
