@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_TH0701_ABAPDIT_1_SORTEDTABLE
+*& Report  Z_TH0701_IN_TABLE_6_SORTEDTABLE
 *&
 *&---------------------------------------------------------------------*
 *&
@@ -12,7 +12,7 @@
 
 *
 *
-REPORT  Z_TH0701_ABAPDIT_1_SORTEDTABLE.
+REPORT  Z_TH0701_IN_TABLE_6_SORTEDTABLE
 
 
 DATA : it_g_sflcrew TYPE TABLE OF zthpractice, "인터널 테이블을 TYPE TABLE OF를 이용하여 선언.
