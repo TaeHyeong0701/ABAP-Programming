@@ -1,11 +1,9 @@
 # OOP in ABAP.
-
-Object-Oriented Programming에 대한 개념.
-**객체 지향 언어 VS 절차 지향 언어**
-
 데이터의 객체화 Diagram
 ![modeling](https://user-images.githubusercontent.com/44318904/48311933-8e75e880-e5ea-11e8-86dd-bec98afd8325.gif)
 
+Object-Oriented Programming에 대한 개념.
+**객체 지향 언어 VS 절차 지향 언어**
 
 |Object Oriented Programming  | Procedure Programming |
 |--|--|
@@ -37,7 +35,8 @@ Object-Oriented Programming에 대한 개념.
 8. 상속(Inheritance) : 공통적인 부분(부모)들을 공유(일반화)하여, 자식클래스들을 특징있게(특수화) 정의하면 편리하게 코딩이 가능.
 
 상속(Inheritance)과 다형성(Polymorphism)
-![Uploading inheritance.gif…]()
+![inheritance](https://user-images.githubusercontent.com/44318904/48312461-23301480-e5f2-11e8-88d0-5ab61f108b83.gif)
+
 
 9.  CASTING :  타입이 완전하게 동일하지 않더라도 형변환을 시켜줌.
 #####                - 상속관계간의 CASTING.
