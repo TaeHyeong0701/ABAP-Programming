@@ -3,6 +3,10 @@
 Object-Oriented Programming에 대한 개념.
 **객체 지향 언어 VS 절차 지향 언어**
 
+데이터의 객체화 Diagram
+![modeling](https://user-images.githubusercontent.com/44318904/48311933-8e75e880-e5ea-11e8-86dd-bec98afd8325.gif)
+
+
 |Object Oriented Programming  | Procedure Programming |
 |--|--|
 |직관적이 않고 복잡하다  | 직관적이고 간단하다 |
@@ -31,12 +35,15 @@ Object-Oriented Programming에 대한 개념.
  7. 오버로딩 :  하위 클래스 단에서, Parameter 개수, 타입 등에 의해서 이름은 같은데 기능은 달라지는 것. 
 - Ex) 카멜레온(오버로딩해주는 메서드)이 주변환경(파라미터 개수, 타입 등등)에 따라 녹색이 될수도 있고, 갈색이 될 수 도 있다.)
 8. 상속(Inheritance) : 공통적인 부분(부모)들을 공유(일반화)하여, 자식클래스들을 특징있게(특수화) 정의하면 편리하게 코딩이 가능.
+
+상속(Inheritance)과 다형성(Polymorphism)
+![Uploading inheritance.gif…]()
+
 9.  CASTING :  타입이 완전하게 동일하지 않더라도 형변환을 시켜줌.
 #####                - 상속관계간의 CASTING.
 | UP | DOWN|
 |--|--|
 | 부모가 자식의 형태로 변환되는 것 | 자식이 부모의 형태로 변환되는 것 |
 
-데이터의 객체화 Diagram
-![modeling](https://user-images.githubusercontent.com/44318904/48311933-8e75e880-e5ea-11e8-86dd-bec98afd8325.gif)
+
     
