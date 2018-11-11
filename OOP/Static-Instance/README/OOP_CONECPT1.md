@@ -36,5 +36,7 @@ Object-Oriented Programming에 대한 개념.
 | UP | DOWN|
 |--|--|
 | 부모가 자식의 형태로 변환되는 것 | 자식이 부모의 형태로 변환되는 것 |
-   
+
+데이터의 객체화 Diagram
+![modeling](https://user-images.githubusercontent.com/44318904/48311933-8e75e880-e5ea-11e8-86dd-bec98afd8325.gif)
     
