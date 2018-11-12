@@ -13,5 +13,7 @@ DATA result TYPE char30.
 PARAMETERS name TYPE char10.
 
 START-OF-SELECTION.
-  CONCATENATE '나의 이름:' name INTO result.
+  CONCATENATE '나의 이름:' name INTO result.               " 방법 1. CONCATENATE 방법으로 합치기.
+*  RESULT(6) = '나의 이름:'.                                 " 방법 2. 문자 위치를 이용하여, 합치기.
+*  RESULT+6(10) = name.                                    
   write : / result.
