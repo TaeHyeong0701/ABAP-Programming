@@ -11,7 +11,6 @@
 + Clear 
 ![clear_1](https://user-images.githubusercontent.com/44318904/48493119-9fcf2700-e86e-11e8-93fc-e03d5f2032a2.gif)
 + Clear []
-
 ![clear_2](https://user-images.githubusercontent.com/44318904/48493573-6814af00-e86f-11e8-9651-7cad0aa4e745.gif)
 
 2. Refresh
