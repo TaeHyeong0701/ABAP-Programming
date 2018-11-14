@@ -9,7 +9,7 @@
 ### 데이터 및 메모리 삭제 시나리오.
  1. Clear
 + Clear 
-![enter image description here](!%5Bclear_1%5D%28https://user-images.githubusercontent.com/44318904/48492968-48c95200-e86e-11e8-9c34-9bd308d51319.gif%29)
+![clear_1](https://user-images.githubusercontent.com/44318904/48493119-9fcf2700-e86e-11e8-93fc-e03d5f2032a2.gif)
 + Clear []
 2. Refresh
 3. Free
