@@ -1,5 +1,5 @@
 
-# Memory and Data in  ABAP.
+# Delete Memory and Data in  ABAP.
 
 
 **Clear VS Refresh VS  Free**
