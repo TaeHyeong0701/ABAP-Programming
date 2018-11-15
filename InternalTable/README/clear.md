@@ -6,10 +6,15 @@
 |Clear | Refresh|Free|
 |--|--|--|
 | header 데이터 삭제<br/>[]: body 데이터 삭제| body 데이터 삭제 |body 및 메모리 삭제|
-### 데이터 및 메모리 삭제 시나리오.
+### Delete Scenario Data and Memory.
 ![clear](https://user-images.githubusercontent.com/44318904/48554399-a36fb600-e921-11e8-858a-57945f624c25.gif)
 
-1. Clear
-2. Refresh
-3. Free
- 
+* Clear
+Header의 데이터를 삭제함.
+***
+* REFRESH(= CLEAR itab[])
+Body의 데이터를 삭제함.
+***
+* Free
+Header + Body + Memory 삭제함.
+*** 
