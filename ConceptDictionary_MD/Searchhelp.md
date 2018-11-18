@@ -30,6 +30,7 @@
 ![impo](https://user-images.githubusercontent.com/44318904/47794996-f283eb80-dd64-11e8-9a14-af38331ac64d.png)
 </br>
    c.	EXP : 결과로 나타내어지는 필드 
+   </br>
    d.	SPos : Search Help Parameterr에서의 필드 순서.(입력된 값의 오름차순으로 정렬시킴)
 ![spos](https://user-images.githubusercontent.com/44318904/47794974-e7c95680-dd64-11e8-9fd7-5aaf99d6b46b.png)
 
