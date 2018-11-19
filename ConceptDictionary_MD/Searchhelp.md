@@ -28,12 +28,15 @@
 
     Ex2.) 설정시, 김*(조건에 따른 조회)
 ![impo](https://user-images.githubusercontent.com/44318904/47794996-f283eb80-dd64-11e8-9a14-af38331ac64d.png)
+</br>
    c.	EXP : 결과로 나타내어지는 필드 
+   </br>
    d.	SPos : Search Help Parameterr에서의 필드 순서.(입력된 값의 오름차순으로 정렬시킴)
 ![spos](https://user-images.githubusercontent.com/44318904/47794974-e7c95680-dd64-11e8-9fd7-5aaf99d6b46b.png)
 
    e.	LPos : hit list내에서 보여지는 필드 순서. (입력된 값의 오름차순으로 정렬시킴)
-![lpos](https://user-images.githubusercontent.com/44318904/47794923-c9635b00-dd64-11e8-9a8c-5e701f6711a7.png)
+   
+   ![lpos](https://user-images.githubusercontent.com/44318904/47794923-c9635b00-dd64-11e8-9a8c-5e701f6711a7.png)
 
    f.	Modified flag : Search Help에서 테이블을 참조하고 있어도, 테이블의 Element나, Field가 추후 수정되는 것이 가능하고, SearchHelp가 자동으로 적용됨.
 6. SAVE AND ACIVATE
