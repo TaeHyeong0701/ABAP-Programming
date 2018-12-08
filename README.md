@@ -1,7 +1,7 @@
  # USER : TaeHyeong Kim
  
  ### Study Subject 
-- ABAP
+- ABAP programming
 
  ### TaeHyeong's Study Proceeding
 ![study](https://user-images.githubusercontent.com/44318904/48312624-0b0dc480-e5f5-11e8-9208-a9ce93f45ecf.gif)
