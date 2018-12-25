@@ -6,7 +6,7 @@
 *&---------------------------------------------------------------------*
 *       text
 *----------------------------------------------------------------------*
-module USER_COMMAND_0100 input.
+MODULE user_command_0100 INPUT.
   CASE ok_code.
     WHEN 'BACK'.
       CLEAR th_matnr.
@@ -16,13 +16,13 @@ module USER_COMMAND_0100 input.
       PERFORM fetch_data.
       CALL SCREEN 200.
   ENDCASE.
-endmodule.                 " USER_COMMAND_0100  INPUT
+ENDMODULE.                 " USER_COMMAND_0100  INPUT
 *&---------------------------------------------------------------------*
 *&      Module  EXIT  INPUT
 *&---------------------------------------------------------------------*
 *       text
 *----------------------------------------------------------------------*
-module EXIT input.
+MODULE exit INPUT.
   CASE ok_code.
     WHEN 'EXIT'.
       LEAVE PROGRAM.
@@ -30,20 +30,23 @@ module EXIT input.
       LEAVE PROGRAM.
   ENDCASE.
 
-endmodule.                 " EXIT  INPUT
+ENDMODULE.                 " EXIT  INPUT
 *&---------------------------------------------------------------------*
 *&      Module  USER_COMMAND_0200  INPUT
 *&---------------------------------------------------------------------*
 *       text
 *----------------------------------------------------------------------*
-module USER_COMMAND_0200 input.
+MODULE user_command_0200 INPUT.
   CASE ok_code.
     WHEN 'BACK'.
+************************************************************************
+* Gabage 정리.
+************************************************************************
       CLEAR result_tab.
       CLEAR th_matnr.
-      clear zsft00108.
+      CLEAR zsft00108.
       LEAVE TO SCREEN 0.
-    WHEN 'CHANGE' or 'SAVE'.
+    WHEN 'CHANGE' OR 'SAVE'.
       CLEAR row.
       LOOP AT SCREEN.
         screen-input = 1.
@@ -53,9 +56,14 @@ module USER_COMMAND_0200 input.
         FROM zsft00108 INTO TABLE it_tab.
 
       LOOP AT it_tab INTO wa_tab.
+************************************************************************
+*  새로운 행을 더해준다.
+************************************************************************
         row = row + 1.
       ENDLOOP.
-
+************************************************************************
+*   새로운 행에 데이터를 삽입해준다.
+************************************************************************
       result_tab-seqnr = row + 1.
       result_tab-matnr = zsft00108-matnr.
       result_tab-maktx = zsft00108-maktx.
@@ -75,8 +83,14 @@ module USER_COMMAND_0200 input.
         MESSAGE 'Update Data Complete!!' TYPE 'S'.
       ENDIF.
       CLEAR it_tab.
+************************************************************************
+*   추가한 데이터들을 반영시켜준다.
+************************************************************************
       MODIFY zsft00108 FROM result_tab.
       CLEAR wa_tab.
   ENDCASE.
 *&-----------------------------------------------------------------
-endmodule.                 " USER_COMMAND_0200  INPUT
+ENDMODULE.                 " USER_COMMAND_0200  INPUT
+
+----------------------------------------------------------------------------------
+Extracted by Direct Download Enterprise version 1.3.1 - E.G.Mellodew. 1998-2005 UK. Sap Release 701
