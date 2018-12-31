@@ -76,6 +76,8 @@ ENDCLASS.                    "alv_event_handler IMPLEMENTATION
 *&---------------------------------------------------------------------*
 *       text
 *----------------------------------------------------------------------*
+  DATA : alv_event_handler TYPE REF TO alv_event_handler.
+*...
   CREATE OBJECT alv_event_handler.                                
   SET HANDLER alv_event_handler->handle_hotspot_click FOR grid.
   SET HANDLER alv_event_handler->handle_toolbar FOR grid.                              " toolbar Register µî·Ï.
