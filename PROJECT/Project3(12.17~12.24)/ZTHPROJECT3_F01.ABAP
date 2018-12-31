@@ -419,6 +419,8 @@ MODULE init_screen OUTPUT.
   PERFORM set_grid_fcat_100 CHANGING lt_fcat.
 
   CALL METHOD grid->set_table_for_first_display
+    EXPORTING
+      is_layout = ls_layo
     CHANGING
       it_outtab       = alv_it_tab
       it_fieldcatalog = lt_fcat.
