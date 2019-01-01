@@ -6,18 +6,18 @@ SE11에서의 Entry 추가 방식과 동일한 방식이긴 하나, 일부 권�
 ****
 ## Process
 1. SE16N 초기화면 및 테이블 선택
-![se16n 1](https://user-images.githubusercontent.com/44318904/50569861-fc51bb80-0db4-11e9-91ee-673889a4cddb.PNG)
+![se16n1](https://user-images.githubusercontent.com/44318904/50569883-d4168c80-0db5-11e9-872f-44eb5617021b.PNG)
 
 2. SE16N 테이블 선택 후 액티베이트 상태 확인
-![se16n 2](https://user-images.githubusercontent.com/44318904/50569862-fcea5200-0db4-11e9-8e55-7df9026836a2.PNG)
+![se16n2](https://user-images.githubusercontent.com/44318904/50569884-d4af2300-0db5-11e9-8585-a6f34ad06bc9.PNG)
 
 3. 실행 버튼을 클릭하여, 데이터 입력 탭으로 이동.
 
 4. 담겨진 데이터 값들 확인 가능
-![se16n 3](https://user-images.githubusercontent.com/44318904/50569859-fc51bb80-0db4-11e9-8716-d6ae23885143.PNG)
+![se16n3](https://user-images.githubusercontent.com/44318904/50569885-d4af2300-0db5-11e9-93f2-6c0bf440237c.PNG)
 
 5. Insert Row
-![se16n 4](https://user-images.githubusercontent.com/44318904/50569860-fc51bb80-0db4-11e9-8f34-e508a3981fc2.PNG)
+![se16n4](https://user-images.githubusercontent.com/44318904/50569886-d4af2300-0db5-11e9-9d12-e90231b2c5ce.PNG)
 
 6. SAVE 버튼을 클릭하여, 데이터 저장.
 ****
