@@ -4,6 +4,7 @@
 
 SHDB는 BDC프로그램의 모태가 되는 레코딩을 만드는 트랜잭션이며, 완성된 BDC프로그램은 **배치프로그램**과 유사하게 반복 작업의 효율성을 높여주는 역할을 하게 된다.
 <행동 복사기>
+
 ![cop](https://user-images.githubusercontent.com/44318904/50592192-6ada6a80-0ed6-11e9-8f4e-a1d49e12ff03.jpg)
 
 #
