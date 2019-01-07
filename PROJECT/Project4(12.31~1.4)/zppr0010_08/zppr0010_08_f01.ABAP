@@ -32,6 +32,9 @@ FORM select_data .
     MODIFY it_tab FROM wa_tab.                      "it_tab 인터널 테이블을 변경시켜준다.
     CLEAR wa_tab.
   ENDLOOP.
+*  loop AT it_tab into wa_tab.
+*    IF wa_tab-stlan is INITIAL.
+*    ENDLOOP.
 ENDFORM.                    " SELECT_DATA
 *&---------------------------------------------------------------------*
 *&      Form  FECT_BOM
@@ -178,7 +181,7 @@ FORM set_grid_layo_100  CHANGING cs_layo TYPE lvc_s_layo.
   cs_layo-info_fname  = space.
   cs_layo-ctab_fname  = space.
 
-*... ALV-Control: Eingabef#higkeit
+*... ALV-Control: Eingabefahigkeit
   cs_layo-edit        = space.
   cs_layo-edit_mode   = space.
 
@@ -318,23 +321,31 @@ FORM bdc_cs01 .
 ***********************************************************************
 * 데이터가 담긴 인터널 테이블 ---> 결과 ALV에 뿌려줄 인터널테이블 데이터 이동.
 ***********************************************************************
-
-      MOVE-CORRESPONDING wa_tab TO wa_reu_tab.
+              MOVE-CORRESPONDING wa_tab TO wa_reu_tab.
 ***********************************************************************
 *  인덱스 값과 호환되는 값이 존재한다면, it_ref1으로 데이터를 옮긴다.
 ***********************************************************************
       SELECT matnr werks idnrk potx1 postp menge meins
         FROM zbomrefth INTO CORRESPONDING FIELDS OF TABLE it_ref1
         WHERE matnr = wa_tab-matnr.
-      IF it_ref1 IS INITIAL.
-        wa_reu_tab-c_light = c_red.
-        wa_reu_tab-c_text = 'CBO 테이블에 값이 없습니다.'.
-*        CONCATENATE err_text v_nl wa_reu_tab-matnr  INTO err_text.
-
-        CLEAR wa_tab-stlan.
-        CLEAR wa_tab-stlnr.
+***********************************************************************
+*  CBO ref 테이블에 값이 없으면,
+***********************************************************************
+      IF wa_reu_tab-stlan is not INITIAL.
+          wa_reu_tab-c_text = '이미 BOM 정보가 들어있습니다. BOM 생성을 실행하지 않았습니다'.
+          wa_reu_tab-c_light = c_yellow.
       ELSE.
+***********************************************************************
+*  이미 BOM 정보가 담겨져 있다면. 노랑색, BOM이 있습니다.
+***********************************************************************
+        IF it_ref1 IS INITIAL.
+          wa_reu_tab-c_light = c_red.
+          wa_reu_tab-c_text = 'CBO 테이블에 값이 없습니다.'.
+*         CONCATENATE err_text v_nl wa_reu_tab-matnr  INTO err_text.
 
+          CLEAR wa_tab-stlan.
+          CLEAR wa_tab-stlnr.
+        else.
         PERFORM bdc_dynpro      USING 'SAPLCSDI' '0100'.
         PERFORM bdc_field       USING 'BDC_CURSOR'
                                      'RC29N-MATNR'.
@@ -382,6 +393,7 @@ FORM bdc_cs01 .
         ENDLOOP.
         CLEAR it_ref1.
         CLEAR wa_ref.
+        endif.
       ENDIF.
     ENDIF.
 ***********************************************************************
@@ -687,6 +699,3 @@ FORM create_fcat .
   CLEAR wa_fcat .
 
 ENDFORM.                    " CREATE_FCAT
-
-----------------------------------------------------------------------------------
-Extracted by Direct Download Enterprise version 1.3.1 - E.G.Mellodew. 1998-2005 UK. Sap Release 701
