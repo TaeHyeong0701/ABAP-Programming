@@ -2,9 +2,9 @@
 *& Report  Z_TH_INTERVAL
 *&
 *&---------------------------------------------------------------------*
-*& Written By TaeHyeong
-*& Reporting Date : `19.1.31
-*& Subject: No Intervals && No Extension 해보자!
+*& Written By TaeHyeong 
+*& Reporting Date : `19.1.31 
+*& Subject: No Intervals && No Extension 설명 및 실습.
 *&---------------------------------------------------------------------*
 
 REPORT  z_th_interval.
