@@ -1,4 +1,4 @@
-##SMOD
+## SMOD
 
 - SAP enhancement를 생성하고 관리하는 T-CODE.
 
