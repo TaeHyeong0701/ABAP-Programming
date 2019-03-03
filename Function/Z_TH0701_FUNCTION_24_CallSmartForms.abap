@@ -37,5 +37,4 @@ CALL FUNCTION fm_name
     USER_CANCELED = 4
     OTHERS = 5.
 
-----------------------------------------------------------------------------------
-Extracted by Direct Download Enterprise version 1.3.1 - E.G.Mellodew. 1998-2005 UK. Sap Release 701
+
